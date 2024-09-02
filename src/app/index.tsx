@@ -1,18 +1,12 @@
 import { View, Text } from 'react-native'
-import React from 'react'
-import Greet from '../components/Greet';
-import ComponentX from '../components/ComponentX';
-import ComponentAge from '../components/ComponentAge';
-import ComponentSub from '../components/ComponentSub';
+import TextComponent from '../components/TextComponent';
+import ButtonComponent from '../components/ButtonComponent';
 
 const Index = () => {
   return (
     <View>
-    <Greet />
-    <ComponentX />
-    <ComponentAge />
-    <ComponentSub />
-
+        <TextComponent />
+        <ButtonComponent />
     </View>
   )
 }
