@@ -22,4 +22,4 @@ const TextComponent = () => {
   )
 }
 
-export default TextComponent
+export default TextComponent 

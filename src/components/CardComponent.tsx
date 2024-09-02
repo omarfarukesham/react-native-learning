@@ -3,6 +3,7 @@ import React from 'react'
 import ImageComponent from './ImageComponent'
 import ButtonComponent from './ButtonComponent'
 import TextComponent from './TextComponent'
+import ButtonAddToCart from './ButtonAddToCart'
 
 const CardComponent = () => {
   return (
@@ -10,6 +11,7 @@ const CardComponent = () => {
         <ButtonComponent />
         <ImageComponent />
         <TextComponent />
+        <ButtonAddToCart />
         
       <Image />
     </View>
