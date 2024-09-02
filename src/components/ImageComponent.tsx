@@ -5,8 +5,8 @@ const ImageComponent = () => {
   return (
     <View style={{}}>
       <Image 
-      source={require('../assets/flower.jpg')} 
-        style={{width: 200, height:200, margin: 10, borderRadius: 60}}
+      source={require('../assets/car1.jpg')} 
+        style={{width: 200, height:200, margin: 10, borderRadius: 10}}
       />
     </View>
   )
