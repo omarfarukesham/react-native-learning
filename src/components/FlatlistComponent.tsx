@@ -1,10 +1,10 @@
-import { View, Text, FlatList } from 'react-native'
+import { View, Text, FlatList, StyleSheet } from 'react-native'
 import React from 'react'
 
 const FlatlistComponent = () => {
     const energyFood = ['Rice', 'MiLK', 'Fruits', "Fish"]
   return (
-    <View>
+    <View style={styles.fruitsContainer} >
       <Text>FlatlistComponent</Text>
       <FlatList 
        data={energyFood}
@@ -15,5 +15,15 @@ const FlatlistComponent = () => {
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  fruitsContainer: {
+    padding: 10,
+    margin: 20,
+    backgroundColor: 'gray',
+    borderColor: "black",
+    borderRadius: 10
+  }
+})
 
 export default FlatlistComponent
