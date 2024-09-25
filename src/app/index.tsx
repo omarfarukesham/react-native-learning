@@ -1,17 +1,19 @@
 import { View, Text } from 'react-native'
-import CardComponent from '../components/CardComponent';
 import FlatlistComponent from '../components/FlatlistComponent';
-import HugeData from '../components/HugeData';
-import ChaildComponent from '../components/ChaildComponent';
-import ParentComponent from '../components/ParentComponent';
+import CardComponent from '../components/CardComponent';
+
+
 
 const Index = () => {
   return (
     <View>
-        {/* <CardComponent /> */}
-        {/* <FlatlistComponent /> */}
+        <Text>Hello world</Text>
+         {/* <CardComponent />
+        <FlatlistComponent />  */}
         {/* <HugeData /> */}
-        <ParentComponent />
+        {/* <ParentComponent /> */}
+
+
 
     </View>
   )
